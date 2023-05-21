@@ -1,0 +1,118 @@
+@import 'variable';
+
+/*****************
+COLORS
+******************/
+
+/*********************************
+     BACKGROUND COLORS
+   **********************************/
+.ts {
+  &-bg {
+    &-white {
+      background-color: $ts-white;
+      &-cream {
+        background-color: $ts-white-cream;
+      }
+    }
+    &-haf {
+      &-white {
+        background-color: $ts-haf-white;
+      }
+    }
+    &-gray {
+      background-color: $ts-gray;
+      &-light {
+        background-color: $ts-gray-light;
+      }
+    }
+    &-black {
+      background-color: $ts-black;
+    }
+    &-dark {
+      background-color: $ts-dark;
+    }
+    &-green {
+      background-color: $ts-green;
+      &-light {
+        background-color: $ts-green-light;
+      }
+      &-glow {
+        background-color: $ts-green-glow;
+      }
+    }
+    &-blue {
+      background-color: $ts-blue;
+      &-dark {
+        background-color: $ts-blue-dark;
+      }
+      &-black {
+        background-color: $ts-blue-black;
+      }
+    }
+    &-primary {
+      background-color: $ts-primary;
+    }
+    &-gradient {
+      background: $ts-gradient;
+    }
+    &-danger {
+      background-color: $ts-danger;
+    }
+  }
+}
+
+/*********************************
+  TEXT COLORS
+ **********************************/
+.ts {
+  &-text {
+    &-white {
+      color: $ts-white;
+    }
+    &-haf {
+      &-white {
+        color: $ts-haf-white;
+      }
+    }
+    &-gray {
+      color: $ts-gray;
+      &-light {
+        color: $ts-gray-light;
+      }
+    }
+    &-black {
+      color: $ts-black;
+    }
+    &-dark {
+      color: $ts-dark;
+    }
+    &-green {
+      color: $ts-green;
+      &-light {
+        color: $ts-green-light;
+      }
+      &-glow {
+        color: $ts-green-glow;
+      }
+    }
+    &-blue {
+      color: $ts-blue;
+      &-dark {
+        color: $ts-blue-dark;
+      }
+      &-black {
+        color: $ts-blue-black;
+      }
+    }
+    &-primary {
+      color: $ts-primary;
+    }
+    &-gradient {
+      color: $ts-gradient;
+    }
+    &-danger {
+      color: $ts-danger;
+    }
+  }
+}

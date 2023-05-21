@@ -1,0 +1,19 @@
+@import '../variable';
+@import '../common';
+@import '../typography';
+@import '../spacing';
+@import '../color';
+
+// CARD TITLE VARIABLE
+$gallery-card-title: 17px;
+.gc {
+  &-title {
+    font-size: $gallery-card-title;
+  }
+}
+.gallery {
+  background: linear-gradient(#8dc853f0, #8dc853e9),
+    url('../../assets/gallery-img/rainforest-cover-min_2x.jpg');
+  background-attachment: fixed;
+  padding-top: 10rem;
+}

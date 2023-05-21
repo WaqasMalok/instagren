@@ -1,0 +1,171 @@
+@import '../variable';
+@import '../typography';
+@import '../spacing';
+@import '../color';
+@import '../common';
+.text-justify {
+  text-align: justify;
+}
+// VARIABLE
+// description
+$fl-desc-1: 22px;
+$fl-desc-2: 18px;
+
+// heading
+$fl-heading-1: 2.4375rem;
+$fl-heading-2: clamp(19px, 3vw, 2.3vw);
+// VARIABLE   class
+.fl {
+  &-desc {
+    &-1 {
+      font-size: $fl-desc-1;
+    }
+    &-2 {
+      font-size: $fl-desc-2;
+    }
+  }
+  &-heading {
+    &-2 {
+      font-size: $fl-heading-2;
+    }
+  }
+}
+
+/************/
+.foliage-main-section {
+  background-size: cover;
+  height: 100vh;
+  background: linear-gradient(#00000044, #0000003c),
+    url('../../assets/foliage-img/cover-nuevo-min_1x.jpg');
+  background-size: cover;
+  background-size: cover;
+  align-items: flex-end;
+  padding: 40px;
+  h1 {
+    line-height: 91%;
+    font-size: $fl-heading-1;
+    @include md-max {
+      font-size: 8vw;
+    }
+  }
+}
+// SWIPE STYLE
+// FOLIAGE & GRASS FOR RENT swiper section
+.rent {
+  &-Swiper {
+    // RENT SWIPER BUTTON
+    .swiper {
+      &-button {
+        &-next,
+        &-prev {
+          top: 25px;
+          width: 35px;
+          height: 35px;
+          background-color: $ts-white-cream;
+          color: #000;
+          transition: all 0.5s ease-in-out;
+          &:after {
+            font-size: 10px;
+            font-weight: 900;
+          }
+          &:hover {
+            background-color: $ts-green;
+            color: #fff;
+          }
+        }
+        &-prev {
+          left: unset;
+          right: 50px;
+        }
+      }
+    }
+    // RENT SWIPER CARD STYLE
+    .focus {
+      &-card {
+        border-radius: 0px;
+        overflow: hidden;
+        margin-top: 8px;
+        &:hover &-img {
+          transform: scale(1.1);
+        }
+        &-on {
+          opacity: 0;
+          transition: all 0.3s ease-in-out;
+        }
+        &:hover &-on {
+          opacity: 3;
+        }
+        &-inner {
+          border: 0px;
+          padding: 42px;
+          background-color: #baf08462;
+        }
+      }
+    }
+  }
+}
+// MAKE YOUR EVENT DISTINGUISH SWIPER PAGINATION
+.foliage-Swiper {
+  .swiper {
+    &-pagination-bullet {
+      padding: 6px;
+      &-active {
+        background-color: $ts-green;
+      }
+    }
+  }
+}
+// CLASS
+.event {
+  @include lg-max {
+    height: 300px;
+  }
+  &-img {
+    object-fit: cover;
+  }
+}
+.GreenBar-left:after {
+  content: '';
+  display: block;
+  margin-inline: auto;
+  margin-block: 3rem 2rem;
+  background-color: $ts-green;
+  width: 5rem;
+  height: 10px;
+  margin-left: inherit;
+  @include md-max {
+    margin-block: 2rem 1rem;
+  }
+}
+
+/**********
+ 
+**************/
+
+// .rent {
+//   &-Swiper {
+//     .focus {
+//       &-card {
+//         border-radius: 0px;
+//         overflow: hidden;
+//         &:hover &-img {
+//           transform: scale(1.1);
+//         }
+//         &-on {
+//           opacity: 0;
+//           transition: all 0.3s ease-in-out;
+//         }
+//         &:hover &-on {
+//           opacity: 3;
+//           box-shadow: inset none;
+//         }
+
+//         &-inner {
+//           border: 0px;
+//           padding: 40px;
+//           background-color: #a7ef5f62;
+//         }
+//       }
+//     }
+//   }
+// }

@@ -1,0 +1,138 @@
+/*****************
+FONT FAMILY CDN LINK
+******************/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/*****************
+FONT FAMILY NAME
+font-family: 'Montserrat', sans-serif;
+******************/
+/*****************
+COLORS
+******************/
+/*****************
+ DESCRIPTION
+******************/
+/*****************
+HEADING
+******************/
+/*****************
+ICONS
+******************/
+/*******************************
+SPACING
+******************************/
+/****************************************************
+ BREAKPOINTS
+****************************************************/
+/*******
+MIXINS
+*******/
+/****************************************************
+ BREAKPOINTS
+****************************************************/
+/*******
+MIXINS
+*******/
+/*****************
+COLORS
+******************/
+/*********************************
+     BACKGROUND COLORS
+   **********************************/
+.ts-bg-white {
+  background-color: #fff;
+}
+.ts-bg-white-cream {
+  background-color: #f7f7f7;
+}
+.ts-bg-haf-white {
+  background-color: #eee;
+}
+.ts-bg-gray {
+  background-color: #585f69;
+}
+.ts-bg-gray-light {
+  background-color: #bbb;
+}
+.ts-bg-black {
+  background-color: #000;
+}
+.ts-bg-dark {
+  background-color: #333;
+}
+.ts-bg-green {
+  background-color: #8ec853;
+}
+.ts-bg-green-light {
+  background-color: #d0e2ac;
+}
+.ts-bg-green-glow {
+  background-color: #a9e32b;
+}
+.ts-bg-blue {
+  background-color: #3b5998;
+}
+.ts-bg-blue-dark {
+  background-color: #003b75;
+}
+.ts-bg-blue-black {
+  background-color: rgba(0, 48, 82, 0.8);
+}
+.ts-bg-primary {
+  background-color: #0e76a8;
+}
+.ts-bg-gradient {
+  background: radial-gradient(circle farthest-corner at 32% 120%, #ffe17d 0, #ffcd69 10%, #fa9137 28%, #eb4141 42%, transparent 82%), linear-gradient(135deg, #234bd7 12%, #c33cbe 58%);
+}
+.ts-bg-danger {
+  background-color: #c8232c;
+}
+
+/*********************************
+  TEXT COLORS
+ **********************************/
+.ts-text-white {
+  color: #fff;
+}
+.ts-text-haf-white {
+  color: #eee;
+}
+.ts-text-gray {
+  color: #585f69;
+}
+.ts-text-gray-light {
+  color: #bbb;
+}
+.ts-text-black {
+  color: #000;
+}
+.ts-text-dark {
+  color: #333;
+}
+.ts-text-green {
+  color: #8ec853;
+}
+.ts-text-green-light {
+  color: #d0e2ac;
+}
+.ts-text-green-glow {
+  color: #a9e32b;
+}
+.ts-text-blue {
+  color: #3b5998;
+}
+.ts-text-blue-dark {
+  color: #003b75;
+}
+.ts-text-blue-black {
+  color: rgba(0, 48, 82, 0.8);
+}
+.ts-text-primary {
+  color: #0e76a8;
+}
+.ts-text-gradient {
+  color: radial-gradient(circle farthest-corner at 32% 120%, #ffe17d 0, #ffcd69 10%, #fa9137 28%, #eb4141 42%, transparent 82%), linear-gradient(135deg, #234bd7 12%, #c33cbe 58%);
+}
+.ts-text-danger {
+  color: #c8232c;
+}/*# sourceMappingURL=color.css.map */

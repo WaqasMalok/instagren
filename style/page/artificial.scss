@@ -1,0 +1,36 @@
+@import '../variable';
+@import '../common';
+@import '../typography';
+@import '../spacing';
+@import '../color';
+/************/
+div img[src='']:empty {
+  display: none;
+}
+.artificial {
+  &-main {
+    &-section {
+      background-size: cover;
+      background-attachment: fixed;
+      background-size: cover;
+      padding-block: 9rem;
+      background: url('../../assets/artificial-img/5e6abab1-f55c-42fc-8483-3a7d882a9e02_1x.png');
+    }
+  }
+  .WhiteBar:after {
+    border-width: 4px;
+  }
+  &-card {
+    &-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 2rem;
+      @include lg-max {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @include md-max {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+  }
+}

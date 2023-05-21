@@ -1,0 +1,77 @@
+@import 'variable';
+/*****************
+ DESCRIPTION
+******************/
+.desc {
+  &-1 {
+    font-size: $ts-desc-1;
+  }
+  &-2 {
+    font-size: $ts-desc-2;
+  }
+  &-3 {
+    font-size: $ts-desc-3;
+  }
+  &-4 {
+    font-size: $ts-desc-4;
+  }
+  &-5 {
+    font-size: $ts-desc-5;
+  }
+  &-6 {
+    font-size: $ts-desc-6;
+  }
+  &-7 {
+    font-size: $ts-desc-7;
+  }
+  &-8 {
+    font-size: $ts-desc-8;
+  }
+}
+
+/*****************
+HEADING
+******************/
+.heading {
+  &-1 {
+    font-size: $ts-heading-1;
+  }
+  &-2 {
+    font-size: $ts-heading-2;
+    color: $ts-gray;
+  }
+  &-3 {
+    font-size: $ts-heading-3;
+  }
+  &-4 {
+    font-size: $ts-heading-4;
+  }
+  &-5 {
+    font-size: $ts-heading-5;
+  }
+  &-6 {
+    font-size: $ts-heading-6;
+  }
+}
+/*****************
+ICONS
+******************/
+.ts {
+  &-icon {
+    &-xxl {
+      font-size: $ts-icon-xxl;
+    }
+    &-xl {
+      font-size: $ts-icon-xl;
+    }
+    &-lg {
+      font-size: $ts-icon-lg;
+    }
+    &-md {
+      font-size: $ts-icon-md;
+    }
+    &-sm {
+      font-size: $ts-icon-sm;
+    }
+  }
+}

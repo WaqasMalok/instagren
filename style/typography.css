@@ -1,0 +1,104 @@
+/*****************
+FONT FAMILY CDN LINK
+******************/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/*****************
+FONT FAMILY NAME
+font-family: 'Montserrat', sans-serif;
+******************/
+/*****************
+COLORS
+******************/
+/*****************
+ DESCRIPTION
+******************/
+/*****************
+HEADING
+******************/
+/*****************
+ICONS
+******************/
+/*******************************
+SPACING
+******************************/
+/****************************************************
+ BREAKPOINTS
+****************************************************/
+/*******
+MIXINS
+*******/
+/****************************************************
+ BREAKPOINTS
+****************************************************/
+/*******
+MIXINS
+*******/
+/*****************
+ DESCRIPTION
+******************/
+.desc-1 {
+  font-size: 1.25rem;
+}
+.desc-2 {
+  font-size: 1rem;
+}
+.desc-3 {
+  font-size: 0.9375rem;
+}
+.desc-4 {
+  font-size: 0.875rem;
+}
+.desc-5 {
+  font-size: 0.8125rem;
+}
+.desc-6 {
+  font-size: 0.75rem;
+}
+.desc-7 {
+  font-size: 10.9999px;
+}
+.desc-8 {
+  font-size: 0.5rem;
+}
+
+/*****************
+HEADING
+******************/
+.heading-1 {
+  font-size: 3.75rem;
+}
+.heading-2 {
+  font-size: clamp(1.4rem, 3vw, 2.1875rem);
+  color: #585f69;
+}
+.heading-3 {
+  font-size: clamp(1.4375rem, 6vw, 4.6875rem);
+}
+.heading-4 {
+  font-size: 1.9375rem;
+}
+.heading-5 {
+  font-size: clamp(0.875rem, 2vw, 1.875rem);
+}
+.heading-6 {
+  font-size: clamp(1.0625rem, 2vw, 1.623rem);
+}
+
+/*****************
+ICONS
+******************/
+.ts-icon-xxl {
+  font-size: 3.42857rem;
+}
+.ts-icon-xl {
+  font-size: 1.71429rem;
+}
+.ts-icon-lg {
+  font-size: 1.28571rem;
+}
+.ts-icon-md {
+  font-size: 1rem;
+}
+.ts-icon-sm {
+  font-size: 0.92857rem;
+}/*# sourceMappingURL=typography.css.map */

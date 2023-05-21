@@ -1,0 +1,33 @@
+@import '../variable';
+@import '../common';
+@import '../typography';
+@import '../spacing';
+@import '../color';
+
+.commercial {
+  &-main-section {
+    padding-top: 10rem;
+  }
+  &-card {
+    &-img {
+      transition: all 0.3s ease-in-out;
+      object-fit: cover;
+    }
+    &:hover &-img {
+      transform: scale(1.1);
+    }
+    &:hover .card-hover {
+      opacity: 1;
+    }
+    &-title {
+      letter-spacing: 3px;
+    }
+    .card {
+      &-hover {
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+        box-shadow: inset 0px 0px 0px 1000px rgba(0, 0, 0, 0.775);
+      }
+    }
+  }
+}

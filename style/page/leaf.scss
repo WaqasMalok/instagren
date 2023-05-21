@@ -1,0 +1,58 @@
+@import '../variable';
+@import '../common';
+@import '../typography';
+@import '../spacing';
+@import '../color';
+// VARIABLE
+// description
+$tc-desc-3: 1.0625rem;
+// HEADING
+$tc-heading-2: clamp(1.25rem, 4vw, 3.4375rem);
+// VARIABLE  CLASS
+.tc {
+  &-desc-3 {
+    font-size: $tc-desc-3;
+  }
+  &-heading {
+    &-2 {
+      font-size: $tc-heading-2;
+    }
+  }
+}
+.py {
+  &-lg {
+    padding-block: 7.14286rem;
+  }
+}
+
+.leaf {
+  height: 70vh;
+  background-size: cover;
+  &-form {
+    box-shadow: 0px 0px 13px 3px rgba(0, 0, 0, 0.286);
+    border-bottom: 5px solid $ts-green;
+    .form {
+      &-control {
+        &:focus {
+          box-shadow: none;
+          border-color: $ts-green;
+        }
+      }
+    }
+  }
+}
+
+.gallery {
+  &-box {
+    .box {
+      overflow: hidden;
+      img {
+        object-fit: cover;
+        transition: all 0.5s ease;
+      }
+      &:hover img {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
